@@ -1,16 +1,17 @@
 <!doctype html>
 <html>
    <head>
-   <title>Hello page</title>
+   <title>SORTED</title>
    </head>
    <body>
+      <h3>Sorting Process</h3>
+      <h3> All iterations of bubble sort</h3>
        {% if all_users %}
        {% for user in all_users %}
-      <h1> Hi, {{ user[0] }}, (zID : {{ user[1] }} and {{ user[2] }}) </h1>
-      <!--<h1>HI <a href=" ">{{ user[0] }}</a></h1> -->
+       <p>{{ user }}</p>
       {% endfor %}
       {%else%}
-      No students to show
+      No numbers to show
       {% endif %}
    </body>
    </html>

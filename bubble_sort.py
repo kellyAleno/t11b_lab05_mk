@@ -12,6 +12,8 @@ def bubbleSort(alist):
             if change == 1:
                 print(alist)
 
+            print (type(alist[1]))
+
 
 list = input("Insert a list of numbers seperated by spaces to be sorted\n")
 new_list = [int(n) for n in list.split(',')]
